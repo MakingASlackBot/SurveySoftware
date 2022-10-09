@@ -1,2 +1,13 @@
 The idea of SurveySoftware is to make a website where someone can go to set up a survey, then give a link to other people to let them fill the survey out.
 Mostly I want to do this for pizza because I want an easy way to see how much pizza is needed for however many people, and what toppings they all want.
+
+Front-end installation:
+Run "npm-install" in SurveySoftware/pizza-poll
+Run "npm start" in SurveySoftware/pizza-poll
+Go to localhost:3000 to see the site
+
+Back-end installation:
+Install SqlServer2019 Express and SSMS or similar, and VSCode or similar. Development packs/plugins necessary for C# development should be installed.
+Open SurveySoftware/survey-software-api in your IDE and build it.
+Run the application and you should see a swagger page where you can test API calls. 
+WIP: EF and migrations instructions to seed the database with test surveys.

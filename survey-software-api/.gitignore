@@ -1,8 +1,9 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
-/survey-software-api/bin
-/survey-software-api/obj
-/survey-software-api/appsettings.Development.json
+#Visual Studio
+/SurveyAPI/bin
+/SurveyAPI/obj
+/SurveyAPI/appsettings.Development.json
 /.vs
 
 # Compiled output
